@@ -39,7 +39,7 @@ Depuis la racine du projet :
 
 docker compose up --build
 
---ouvri le lien:
+--ouvrir le lien:
 
 http://localhost:3000/
 
