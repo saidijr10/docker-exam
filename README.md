@@ -38,8 +38,8 @@ docker compose up --build
 
 docker exec -it exam_saidi_soufiane-db-1 psql -U postgres -d counterdb
 
-
 \dt   -- voir les tables
+
 SELECT * FROM counter;  -- voir la valeur du compteur
 
 ---
