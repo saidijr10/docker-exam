@@ -47,13 +47,17 @@ SELECT * FROM counter;  -- voir la valeur du compteur
 ## IMAGE ON REGISTRY:
 
 docker login
+
 --puis
+
 docker push saidijr/exam-web:latest
 
 --peut etre retrouver
+
 https://hub.docker.com/r/saidijr/exam-web
 
 --et pour pull
+
 docker pull saidijr/exam-web
 
 ---
