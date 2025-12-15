@@ -1,5 +1,12 @@
 # Exam Docker - Counter App
 
+
+## NOM ET PRENOM
+
+SAIDI Soufiane
+
+---
+
 ## Description
 Cette application est un petit compteur avec une interface web (Node.js + Express) et une base de données PostgreSQL.  
 Elle est containerisée avec Docker et orchestrée via Docker Compose.
@@ -69,12 +76,6 @@ docker pull saidijr/exam-web
 docker run --rm -v /var/run/docker.sock:/var/run/docker.sock aquasec/trivy image exam_saidi_soufiane-web
 
 ---
-
-## Auteur
-
-SAIDI Soufiane
-
-
 
 
 
