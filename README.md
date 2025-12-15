@@ -20,20 +20,6 @@ L'application permet :
 
 ---
 
-## Structure du projet
-
-Exam_SAIDI_Soufiane/
-│
-├── backend/ # Code Node.js
-│ ├── index.js
-│ └── package.json
-├── Dockerfile # Dockerfile pour l'application web
-├── docker-compose.yml # Compose file pour web + DB
-├── trivy-report.txt
-└── README.md
-
----
-
 ## Prérequis
 
 - Port 3000 disponible
