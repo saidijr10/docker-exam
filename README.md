@@ -39,6 +39,10 @@ Depuis la racine du projet :
 
 docker compose up --build
 
+--ouvri le lien:
+
+http://localhost:3000/
+
 ---
 
 ## Accès à la BDD
