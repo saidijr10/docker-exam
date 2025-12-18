@@ -58,28 +58,29 @@ SELECT * FROM counter;  -- voir la valeur du compteur
 
 ## IMAGE ON REGISTRY:
 
+```bash
 docker login
-
+```
 --puis
-
+```bash
 docker push saidijr/exam-web:latest
-
+```
 --peut etre retrouver
-
+```bash
 https://hub.docker.com/r/saidijr/exam-web
-
+```
 --et pour pull
-
+```bash
 docker pull saidijr/exam-web
-
+```
 ---
 
 ## SCAN and Report 
 
 --pour le scan j'ai utiliser l'image aquasec/trivy et le rapport generé ce trouve dans le fichier trivy-report.txt
-
+```bash
 docker run --rm -v /var/run/docker.sock:/var/run/docker.sock aquasec/trivy image exam_saidi_soufiane-web
-
+```
 ---
 
 
