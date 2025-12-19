@@ -36,9 +36,9 @@ L'application permet :
 ## Lancement de l'application
 
 Depuis la racine du projet :
-
+```bash
 docker compose up --build
-
+```
 --ouvrir le lien:
 
 http://localhost:3000/
