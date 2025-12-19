@@ -1,6 +1,7 @@
 services:
   web:
     build: .
+    image: docker.io/saidijr/exam-web:latest
     ports:
       - "3000:3000"
     environment:

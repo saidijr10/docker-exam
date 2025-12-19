@@ -3,7 +3,7 @@
 
 
 # On utilise l'image officielle Node.js légère pour construire l'application
-FROM node:18-alpine AS build
+FROM node:25-alpine AS build
 
 # Définit le répertoire de travail dans le conteneur (comme un cd )
 WORKDIR /app
@@ -22,7 +22,7 @@ COPY backend .
 
 
 # On utilise à nouveau l'image Node.js légère pour le conteneur final
-FROM node:18-alpine
+FROM node:25-alpine
 
 # Définit le répertoire de travail
 WORKDIR /app
